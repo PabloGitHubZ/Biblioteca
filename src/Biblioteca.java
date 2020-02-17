@@ -19,7 +19,7 @@ public class Biblioteca {
 
     /**
      * Método Principal.
-     * @param args 
+     * @param args Vaya
      */
     public static void main(String[] args) {
         String pass;
