@@ -1,6 +1,6 @@
 import Utils.Menu;
 import Utils.Utilidades;
-import biblioteca.GestorDatosInterface;
+import biblioteca.GestorDatos;
 import biblioteca.Prestamo;
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class MenuPrestamo extends Menu {
         String dni;
         String isbn;
         Prestamo p;
-        GestorDatosInterface gd=Biblioteca.gd;
+        GestorDatos gd=Biblioteca.gd;
         ArrayList <Prestamo> lista;
 
         switch(opc) {

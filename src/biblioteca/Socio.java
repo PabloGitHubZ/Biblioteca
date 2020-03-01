@@ -128,4 +128,34 @@ public class Socio {
     public void setActive(boolean b) {
         this.active=b;
     }
+    /*
+     * Modifica el dni del socio
+     */    
+    public void setDNI(String elemento) {
+        this.dni=elemento;
+    } 
+    /*
+     * Modifica el nombre del socio
+     */   
+    public void setNombre(String elemento) {
+        this.nombre=elemento;
+    } 
+    /*
+     * Modifica la dirección del socio
+     */   
+    public void setDireccion(String elemento) {
+        this.direccion=elemento;
+    }
+    /*
+     * Modifica el telefono del socio
+     */   
+    public void setTelefono(String elemento) {
+        this.telefono=elemento;
+    }
+    /*
+     * Modifica el email del socio
+     */   
+    public void setEmail(String elemento) {
+        this.email=elemento; 
+    }     
 }
